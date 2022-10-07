@@ -1,10 +1,14 @@
 .navbar-brand{
-    // font: bold;
-    color: white;
+    font-weight: bold;
+    color: #707070;
 }
 .nav-item a{
-    color: white;
+    font-weight: bold;
+    color: #707070;
 }
-.navbar-toggler-icon{
-    background-color: white;
+#navbarNav{
+    justify-content: flex-end;
 }
+// .navbar{
+//     background-color: black;
+// }

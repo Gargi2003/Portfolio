@@ -1,0 +1,98 @@
+// .typewriter{
+//     font-family: monospace;
+//     display: inline-block;
+//     position: absolute;
+//     top: 22rem;
+// }
+
+// .typewriter-text{
+//     display: inline-block;
+//     overflow: hidden;
+//     letter-spacing: 3px;
+//     animation: typing 5s steps(34,end);
+//     white-space: nowrap;
+//     font-size: 40px;
+//     font-weight: 700;
+//     border-radius: 14px solid orange;
+//     box-sizing: border-box;
+// }
+
+// @keyframes typing{
+//     from{
+//         width: 0%;
+//     }
+//     to{
+//         width: 100%;
+//     }
+// }
+
+.inner-text {
+    color: white;
+    margin-top: 20%;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.about-me {
+    background: url('../../assets/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.text-background{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.propic {
+    height: 300px;
+}
+
+.inner-body {
+    margin-top: 4rem;
+}
+
+.experience {
+    background: url('../../assets/experience.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    h3 {
+        color: white;
+    }
+}
+
+.profpic {
+    height: 600px;
+}
+
+.card-title {
+    color: white;
+}
+
+.card {
+    cursor: pointer;
+    width: 18rem;
+    background-color: #333333;
+    transition: 1s ease;
+}
+
+.card:hover {
+    background-color: #ff0066;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    .card-text {
+        color: white !important;
+    }
+
+    .card-subtitle {
+        color: white !important;
+    }
+}
+
