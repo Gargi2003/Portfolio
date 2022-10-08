@@ -1,24 +1,36 @@
-<div id="aboutme" class="about-me d-flex justify-content-center">
+<app-navbar></app-navbar>
+<div class="about-me d-flex justify-content-center">
     <div class="container" style="margin-top: 50px;">
         <div class="row justify-content-center">
-            <h4 style="margin-top: 30px;color: white;">About Me</h4>
+            <h4 style="margin-top: 30px;color: white;"></h4>
         </div>
-        <br>
+        <br><br>
         <div class="row back">
-            <div class="col-4">
-                <img src="../../assets/gargi.jpeg" class="fluid img-thumbnail rounded propic">
+            <div class="col-3">
+                <img src="../../assets/gargi.jpeg" class="fluid img-thumbnail justify-content-end rounded propic">
             </div>
-            <div class="col text-background">
-                <h3>I'm Gargi and I'm a Software Engineer.</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text
-                    of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type and scrambled it .Lorem Ipsum is
-                </p>
-                <button class="btn btn-danger">Download CV</button>
+            <div class="col-9 text-background">
+                <div class="row align-itetms-start p-2 p-5 rounded">
+                    <h3>About Me</h3>
+                    <br><br>
+                    <p>
+                        I am Gargi Bandyopadhyay, a Software Engineer at Dell.
+                        I have around 1 year of experience in Fullstack Develpoment.
+                        I have worked on both backend and frontend technologies.
+                        <br>
+                        I am an active learner willing to learn new technologies while adding value to the organisation.
+                        Proficient in English language skills to convince potential customers and clients.
+                    </p>
+                    <button class="btn btn-primary">
+                        <a href="../../assets/resume.pdf" download="Gargi_Resume.pdf">
+                            Download CV
+                        </a>
+                    </button>
+                    <button class="btn btn-primary" routerLink="/exp">Know more </button>
+                </div>
+
+
             </div>
         </div>
     </div>
-</div> 
+</div>

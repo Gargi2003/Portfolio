@@ -4,9 +4,6 @@
 
 .inner-text {
     color: black;
-    margin-top: 25%;
-    // background-color: white;
-
 }
 
 .static-text {
@@ -15,12 +12,13 @@
 
 .wrapper {
     display: inline-flex;
-
+    margin-top: 10%;
+    margin-left: 53%;
     .dynamic-text {
         height: 40px;
         line-height: 50px;
         overflow: hidden;
-
+        // margin-left: 22%;
         li {
             list-style: none;
             font-size: 29px;
@@ -41,11 +39,18 @@
                 position: absolute;
                 height: 100%;
                 width: 100%;
-                background: #33001a;
+                background: #262626;
                 border-left: 2px solid #FC6D6D;
                 left: 0;
                 animation: typing 2s steps(19) infinite;
             }
+        }
+    }
+    h1{
+        color: white;
+        span{
+            color: orange;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
     }
 }
@@ -63,19 +68,30 @@
     }
 }
 
-.container {
-    margin-top: 10%;
-}
-
 .intod {
     height: 100vh;
     width: 100%;
 }
 
-.propic {
-    height: 300px;
-}
+.images {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    top: 26%;
 
-.inner-body {
-    margin-top: 4rem;
+    img {
+        
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .profpic{
+   left: 45%;
 }

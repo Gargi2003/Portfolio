@@ -8,7 +8,21 @@
 }
 #navbarNav{
     justify-content: flex-end;
+    li{
+        a:hover{
+           color: rgb(255, 209, 6);
+        }
+    }
 }
-// .navbar{
-//     background-color: #0d0d0d;
-// }
+.navbar{
+    background-color: #262626;
+}
+.logo{
+    height: 40px;
+    margin-left: 62px;
+}
+.navbar-toggler{
+    background: white;
+    // position: absolute;
+    
+}
