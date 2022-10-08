@@ -1,0 +1,39 @@
+
+.experience {
+    height: 100vh;
+
+    h3 {
+        color: white;
+    }
+}
+
+.profpic {
+    height: 600px;
+}
+
+.card-title {
+    color: white;
+}
+
+.card {
+    cursor: pointer;
+    width: 18rem;
+    background-color: #cccccc;
+    transition: 1s ease;
+}
+
+.card:hover {
+    background-color: #ff0066;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+
+    .card-text {
+        color: white !important;
+    }
+
+    .card-subtitle {
+        color: white !important;
+    }
+}
