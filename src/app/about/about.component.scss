@@ -1,19 +1,21 @@
-
-.about-me {
-    height: 100vh;
-}
-
 .text-background {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.4);
     padding: 20px;
     border-radius: 20px;
     .btn{
         // background-color: rgb(255, 166, 0);
-        margin: 10px;
+        margin: 5px;
         a{
             text-decoration: none;
             color: white;
         }
     }
     
+}
+.container{
+    margin-top: 8rem;
+}
+.about-me{
+    background: url('../../assets/about1.jpg');
+    height: 100vh;
 }

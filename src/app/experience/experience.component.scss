@@ -1,7 +1,7 @@
-
 .experience {
     height: 100vh;
-
+    overflow-y: auto;
+    background: url('../../assets/about1.jpg');
     h3 {
         color: white;
     }
@@ -11,6 +11,9 @@
     height: 600px;
 }
 
+#exprience{
+    align-items: center;
+}
 .card-title {
     color: white;
 }
@@ -23,11 +26,11 @@
 }
 
 .card:hover {
-    background-color: #ff0066;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: 1s ease;
+    background-color: rgb(252, 224, 100);
+    // -webkit-transform: scale(1.1);
+    // -ms-transform: scale(1.1);
+    // transform: scale(1.1);
+    // transition: 1s ease;
 
     .card-text {
         color: white !important;
@@ -36,4 +39,16 @@
     .card-subtitle {
         color: white !important;
     }
+}
+
+.card-head {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 29%;
 }
