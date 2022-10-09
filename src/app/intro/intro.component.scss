@@ -12,43 +12,6 @@
 
 .wrapper {
     display: inline-flex;
-
-    // margin-top: 10%;
-    // margin-left: 53%;
-    .dynamic-text {
-        height: 40px;
-        line-height: 52px;
-        overflow: hidden;
-
-        // margin-left: 22%;
-        li {
-            list-style: none;
-            font-size: 28px;
-            line-height: 40px;
-            // background: red;
-            color: #FC6D6D;
-            font-weight: 500;
-            position: relative;
-            top: 0;
-            animation: slide 8s steps(4) infinite;
-
-            span {
-                position: relative;
-            }
-
-            span::after {
-                content: "";
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                background: #262626;
-                border-left: 2px solid #FC6D6D;
-                left: 0;
-                animation: typing 2s steps(19) infinite;
-            }
-        }
-    }
-
     h1 {
         color: white;
 
@@ -56,19 +19,6 @@
             color: orange;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
-    }
-}
-
-@keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-}
-
-@keyframes slide {
-    100% {
-        top: -158px;
     }
 }
 
@@ -82,18 +32,13 @@
     height: 50%;
     position: absolute;
     bottom: 0;
-
-    // top: 26%;
     .profpic {
         height: 400px;
     }
-
     .shape {
         height: 350px;
     }
-
     img {
-
         position: absolute;
         bottom: 0;
         left: 50%;
@@ -116,3 +61,15 @@
 #im{
     margin-top: 268px;
 }
+
+.blink {
+    border-right-style: solid;
+    animation: 1s blink infinity;
+  }
+  
+  @keyframes blink {
+    to {
+      opacity: 0;
+    }
+  }
+  
