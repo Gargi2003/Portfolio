@@ -1,7 +1,10 @@
 .experience {
     height: 100vh;
     overflow-y: auto;
-    background: url('../../assets/about1.jpg');
+    background: #ad5389;
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    background: linear-gradient(to right, #3c1053, #ad5389);
+
     h3 {
         color: white;
     }
@@ -11,9 +14,13 @@
     height: 600px;
 }
 
-#exprience{
+h3 {
+    margin-top: 30px;
     align-items: center;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-weight: bolder;
 }
+
 .card-title {
     color: white;
 }
@@ -26,12 +33,9 @@
 }
 
 .card:hover {
-    background-color: rgb(252, 224, 100);
-    // -webkit-transform: scale(1.1);
-    // -ms-transform: scale(1.1);
-    // transform: scale(1.1);
-    // transition: 1s ease;
-
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     .card-text {
         color: white !important;
     }
@@ -39,6 +43,13 @@
     .card-subtitle {
         color: white !important;
     }
+}
+
+img:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
 }
 
 .card-head {
@@ -50,5 +61,4 @@
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    margin-left: 29%;
 }

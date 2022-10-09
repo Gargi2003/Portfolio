@@ -1,0 +1,25 @@
+form {
+    padding: 10px;
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.cover {
+    height: 100vh;
+    overflow: auto;
+    background: #20002c;
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);
+    background: linear-gradient(to right, #cbb4d4, #20002c);
+
+}
+
+button {
+    width: 100px;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    color: white;
+}
