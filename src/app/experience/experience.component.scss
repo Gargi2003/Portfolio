@@ -1,22 +1,20 @@
 .experience {
-    height: 100vh;
-    overflow-y: auto;
-    background: url('../../assets/about1.jpg');
+    // height: 100vh;
+    // overflow-y: scroll;
+    // background: url('../../assets/about1.jpg');
+    margin-top: 10%;
 
     h3 {
         color: white;
     }
 }
 
-.profpic {
-    height: 600px;
-}
-
 h3 {
-    margin-top: 30px;
+    // margin-top: 20px;
     align-items: center;
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
     font-weight: bolder;
+
 }
 
 .card-title {
@@ -25,24 +23,18 @@ h3 {
 
 .card {
     cursor: pointer;
-    width: 18rem;
+    width: 13rem;
     background-color: #cccccc;
     transition: 1s ease;
+    margin: 5px;
 }
 
 .card:hover {
 
     background: #bdc3c7;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-    // background: #7F7FD5;
-    // background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
-    // background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     .card-text {
         color: white !important;
     }
