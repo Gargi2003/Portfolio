@@ -1,25 +1,28 @@
 .text-background {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 20px;
     border-radius: 20px;
-    .btn{
+
+    .btn {
         margin: 5px;
         font-weight: bolder;
+
         // border: 0.1px solid;
-        a{
+        a {
             text-decoration: none;
             color: white;
         }
     }
-    
+
 }
 
-.about-me{
+.about-me {
     background: url('../../assets/about1.jpg');
     height: 100vh;
     overflow: auto;
 }
-h3{
+
+h3 {
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,53 +35,59 @@ h3{
     -webkit-transition: color 0.25s 0.0833333333s;
     transition: color 0.25s 0.0833333333s;
     position: relative;
-  }
-  
+}
+
 .draw-border::before,
 .draw-border::after {
-  border: 0 solid transparent;
-  box-sizing: border-box;
-  content: '';
-  pointer-events: none;
-  position: absolute;
-  width: 0rem;
-  height: 0;
-  bottom: 0;
-  right: 0;
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0rem;
+    height: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .draw-border::before {
-  border-bottom-width: 4px;
-  border-left-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
 }
 
 .draw-border::after {
-  border-top-width: 4px;
-  border-right-width: 4px;
+    border-top-width: 4px;
+    border-right-width: 4px;
 }
 
 .draw-border:hover {
-  color: #ffe593;
+    color: #ffe593;
 }
 
 .draw-border:hover::before,
 .draw-border:hover::after {
-  border-color: #ffcd06;
-  -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
-  transition: border-color 0s, width 0.25s, height 0.25s;
-  width: 100%;
-  height: 100%;
+    border-color: #ffcd06;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
 }
 
 .draw-border:hover::before {
-  -webkit-transition-delay: 0s, 0s, 0.25s;
-  transition-delay: 0s, 0s, 0.25s;
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
 }
 
 .draw-border:hover::after {
-  -webkit-transition-delay: 0s, 0.25s, 0s;
-  transition-delay: 0s, 0.25s, 0s;
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
 }
-button{
-    color: white !important;
+
+button {
+    color: white  !important;
+    background: #403A3E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
