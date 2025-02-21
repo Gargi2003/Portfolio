@@ -1,5 +1,6 @@
 .list-f{
     list-style: none;
+    font-size: 12px;
     li{
         margin: 20px;
     }
@@ -28,9 +29,9 @@ h2{
     background: #bdc3c7;
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
     background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 1s ease;
     li,h5 {
         color: white !important;

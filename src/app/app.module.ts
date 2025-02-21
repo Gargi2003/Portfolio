@@ -7,7 +7,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { IntroComponent } from './intro/intro.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { ProjectComponent } from './project/project.component';
 import { SkillComponent } from './skill/skill.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -18,7 +17,6 @@ import { ContactComponent } from './contact/contact.component';
     IntroComponent,
     AboutComponent,
     ExperienceComponent,
-    ProjectComponent,
     SkillComponent,
     ContactComponent
   ],
